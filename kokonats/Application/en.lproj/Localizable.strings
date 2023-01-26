@@ -1,0 +1,114 @@
+/* 
+  Localizable.strings
+  kokonats
+
+  Created by sean on 2022/02/09.
+  
+*/
+"home_tnm_title" = "TOURNAMENT";
+"home_game_title" = "GAME";
+"home_game_card_title" = "START PLAY";
+"home_banner_congra_word" = "Congratulations! ";
+"home_banner_1000_koko" = " 170 KOKO";
+"home_banner_gained_word" = " gained!";
+"home_tnm_join_tag" = " Enter";
+
+
+"user_tnmhistory_title" = "Tournament History";
+"user_tnmhistory_all_title" = "Tournament\nHistory";
+"user_tnmhistory_all_allScore_title" = "Total";
+"user_tnmhistory_all_allScore_button_title" = "all";
+"user_tnmhistory_all_button_title" = "History";
+"user_tnmhistory_support" = "Want Help? click here";
+"user_logout_label" = "logout";
+"user_logout_message_title" = "Are you sure you want to log out?";
+"user_logout_ok" = "OK";
+"user_logout_cancel" = "CANCEL";
+
+"shop_title" = "SHOP";
+"energy_item_title" = "ENERGY";
+"buy_energy" = "Buy Energy";
+"recommended" = "Recommend";
+"shop_item_title" = "ITEMS";
+"shop_purchased_label" = "purchased";
+"shop_purchased_confirm_label" = "confirm your purchase";
+"purchase_confirm_ok" = "buy";
+"purchase_confirm_no" = "cancel";
+"shop_403_koko_error_title" = "purchase failed";
+"shop_403_koko_error_description" = "there is not enough koko";
+"shop_403_koko_error_button" = "OK";
+
+"tnmvc_button_left_title" = "LEFT";
+"tnmvc_button_full_title" = "FULL";
+"tnmvc_button_join_title" = "join now";
+"tnmvc_button_enternow_title" = "ENTER NOW";
+"tnmvc_button_playnow_title" = "PLAY NOW";
+"tnmvc_button_playagain_title" = "FREE to PLAY AGAIN";
+"alert_entryfee_title" = "Enter Tournament";
+"alert_entryfee_content" = "Do u want to use %@ energy \r\nto enter this tournament?";
+"tnmvc_button_finished_title" = "finished";
+"tnmvc_button_full_title" = "満員";
+"tnmvc_button_unknown" = "unknown";
+"tnmvc_ranking_label_title" = "ranking";
+"tnmvc_rules_label_title" = "rules";
+"tnmvc_back" = "Back";
+
+"matching_title" = "Matching";
+"matching_message_title" = "start matching";
+"matching_message_cancel" = "CANCEL";
+"matching_message_go" = "GO!";
+
+"matching_dot_char" = "・";
+"all_tag" = "ALL";
+"tournament_tag" = "tournament";
+"practice_tag" = "practice";
+"result_ranking" = "ranking";
+"result_view_result_win" = "WIN";
+"result_view_result_lost" = "LOST";
+"result_view_result_draw" = "DRAW";
+"result_view_result_playing" = "PLAYING";
+"score_title" = "score";
+"join_game" = "join";
+"rule_title" = "rules";
+"back_home" = "back";
+"play_again" = "play again";
+
+"error_failed_join_title" = "failed to join the game";
+"error_need_to_login_first" = "Please log-in first.";
+"error_reason_game_not_start" = "Energy is not enough";
+
+// MARK: - Chat
+"chat.elem.channel" = "Channel";
+"chat.elem.message" = "DM";
+"chat.elem.support" = "Support";
+"report" = "REPORT";
+"block" = "BLOCK";
+"cancel" = "Cancel";
+"blacklist" = "Blacklist";
+"unblock" = "Unblock";
+
+// MARK: - Tutorial
+"tutorial_content_1" = "Play games with
+ENERGY
+Can buy ENERGY
+in store page.";
+"tutorial_content_2" = "Win tournament
+to get KOKO.
+Can buy game items
+with KOKO.";
+"tutorial_content_3" = "Can also exchange
+KOKO";
+"tutorial_tap_start" = "TAP TO START";
+
+// MARK: - Share
+"share_tournament_detail" = "%1@'s %2@ is running. 1st place can win KOKO! Let's play together! #@kokonats_jp https://game.kokonats.club";
+"share_game_detail" = "Let's join %1@'s tournament together! #@kokonats_jp https://game.kokonats.club";
+
+"share_result_tournament_1" = "I got %1@st place at %2@'s %3@ ! #@kokonats_jp https://game.kokonats.club";
+"share_result_tournament_2" = "I got %1@nd place at %2@'s %3@ ! #@kokonats_jp https://game.kokonats.club";
+"share_result_tournament_3" = "I got %1@rd place at %2@'s %3@ ! #@kokonats_jp https://game.kokonats.club";
+"share_result_tournament_other" = "I got %1@th place at %2@'s %3@ ! #@kokonats_jp https://game.kokonats.club";
+"share_result_match_win" = "I won %2@ at %1@ pvp match and won the prize! #@kokonats_jp https://game.kokonats.club";
+"share_result_match_draw" = "I'm tied with %2@ on %1@! The match was so much fun! #@kokonats_jp https://game.kokonats.club/";
+"share_result_match_lose" = "I lost to %2@ on %1@, someone please help! #@kokonats_jp https://game.kokonats.club/";
+

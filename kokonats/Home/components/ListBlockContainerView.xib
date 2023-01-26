@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ListBlockContainerView" customModule="kokonats" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="372"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ゲーム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHj-Xd-xtv">
+                    <rect key="frame" x="24" y="0.0" width="103" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="y37-nt-reU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_tag_list_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="NUX-f5-cW7">
+                    <rect key="frame" x="0.0" y="56" width="452" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="Kyb-9P-fQ4"/>
+                    </constraints>
+                </imageView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="xqx-Gm-OWu">
+                    <rect key="frame" x="0.0" y="124" width="452" height="248"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="248" id="rRz-ED-leM"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="14" id="hWr-TF-vaD">
+                        <size key="itemSize" width="295" height="248"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="0.098039215690000001" green="0.1019607843" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xqx-Gm-OWu" firstAttribute="top" secondItem="NUX-f5-cW7" secondAttribute="bottom" constant="30" id="0sh-Jx-2kB"/>
+                <constraint firstAttribute="trailing" secondItem="xqx-Gm-OWu" secondAttribute="trailing" id="3xv-rl-9Yk"/>
+                <constraint firstItem="NUX-f5-cW7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="H6w-fv-Y72"/>
+                <constraint firstItem="VHj-Xd-xtv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="KZa-tG-Vtj"/>
+                <constraint firstItem="xqx-Gm-OWu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="N4Z-as-cRN"/>
+                <constraint firstItem="NUX-f5-cW7" firstAttribute="top" secondItem="VHj-Xd-xtv" secondAttribute="bottom" constant="15" id="UXJ-ku-CmA"/>
+                <constraint firstItem="VHj-Xd-xtv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YNQ-jH-uHi"/>
+                <constraint firstAttribute="trailing" secondItem="NUX-f5-cW7" secondAttribute="trailing" id="hJn-Kj-KTV"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="heightOfCollectionView" destination="rRz-ED-leM" id="5UP-Wy-SYe"/>
+                <outlet property="itemCollectionView" destination="xqx-Gm-OWu" id="T4Y-q8-Lhu"/>
+                <outlet property="layout" destination="hWr-TF-vaD" id="Wp8-Wq-8oW"/>
+                <outlet property="tabPlaceHolderView" destination="NUX-f5-cW7" id="Nen-yH-qTJ"/>
+                <outlet property="title" destination="VHj-Xd-xtv" id="nnh-jP-UJ9"/>
+            </connections>
+            <point key="canvasLocation" x="84.057971014492765" y="-83.705357142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="game_tag_list_placeholder" width="1113" height="162"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

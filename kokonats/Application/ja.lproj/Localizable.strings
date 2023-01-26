@@ -1,0 +1,117 @@
+/* 
+  Localizable.strings
+  kokonats
+
+  Created by sean on 2022/02/09.
+  
+*/
+"home_tnm_title" = "トーナメント";
+"home_game_title" = "ゲーム";
+"home_game_card_title" = "今すぐプレイ";
+"home_banner_congra_word" = "おめでとうございます! ";
+"home_banner_1000_koko" = " 170 KOKO";
+"home_banner_gained_word" = " 獲得!";
+"home_tnm_join_tag" = "で参加";
+
+"user_tnmhistory_title" = "トーナメント参加履歴";
+"user_tnmhistory_all_title" = "トーナメント\n参加履歴";
+"user_tnmhistory_all_allScore_title" = "合計";
+"user_tnmhistory_all_allScore_button_title" = "全部";
+"user_tnmhistory_all_button_title" = "もっと見る";
+"user_tnmhistory_support" = "困った時はこちら";
+"user_logout_label" = "ログアウト";
+"user_logout_message_title" = "ログアウトしますか";
+"user_logout_ok" = "はい";
+"user_logout_cancel" = "キャンセル";
+
+
+"shop_title" = "ショップ";
+"energy_item_title" = "エナジー";
+"buy_energy" = "エナジーを購入";
+"recommended" = "キャンペーン";
+"shop_item_title" = "アイテム";
+"shop_purchased_label" = "購入済み";
+"shop_purchased_confirm_label" = "購入していいですか？";
+"purchase_confirm_ok" = "購入";
+"purchase_confirm_no" = "キャンセル";
+"shop_403_koko_error_title" = "購入が失敗しました";
+"shop_403_koko_error_description" = "kokoが足りません";
+"shop_403_koko_error_button" = "OK";
+
+
+"tnmvc_button_left_title" = "後";
+"tnmvc_button_full_title" = "満員";
+"tnmvc_button_join_title" = "今すぐ参加";
+"tnmvc_button_enternow_title" = "今すぐ参加";
+"tnmvc_button_playnow_title" = "今すぐプレイ";
+"tnmvc_button_playagain_title" = "無料で再参加";
+"alert_entryfee_title" = "トーナメントに参加";
+"alert_entryfee_content" = "%@エナジーを消費して\r\n参加しますか？";
+"tnmvc_button_finished_title" = "終了";
+"tnmvc_button_unknown" = "未定";
+"tnmvc_ranking_label_title" = "スコアランキング";
+"tnmvc_rules_label_title" = "ルール";
+"tnmvc_back" = "ホームに戻る";
+
+"matching_title" = "マッチング";
+"matching_message_title" = "マッチング開始";
+"matching_message_cancel" = "キャンセル";
+"matching_message_go" = "GO!";
+
+"matching_dot_char" = "・";
+"all_tag" = "全部";
+"tournament_tag" = "トーナメント";
+"practice_tag" = "練習";
+"result_ranking" = "取得順位";
+"result_view_result_win" = "WIN";
+"result_view_result_lost" = "LOST";
+"result_view_result_draw" = "DRAW";
+"result_view_result_playing" = "PLAYING";
+"score_title" = "スコア";
+"join_game" = "今すぐ参加";
+"rule_title" = "ルール";
+"back_home" = "ホームに戻る";
+"play_again" = "もう一度参加";
+
+"confirm_ok" = "はい";
+"confirm_no" = "いいえ";
+
+
+"error_failed_join_title" = "参加できませんでした";
+"error_need_to_login_first" = "先にログインしてください。";
+"error_reason_game_not_start" = "エナジーが足りません";
+
+// MARK: - Chat
+"chat.elem.channel" = "オープン";
+"chat.elem.message" = "ダイレクト";
+"chat.elem.support" = "運営";
+"report" = "通報";
+"block" = "ブロック";
+"cancel" = "キャンセル";
+"blacklist" = "ブラックリスト";
+"unblock" = "ブロック解除";
+
+// MARK: - Tutorial
+"tutorial_content_1" = "エナジーを使用して
+ゲームに参加しよう！
+エナジーはストアから
+購入できます";
+"tutorial_content_2" = "トーナメントに参加して
+ココナッツを稼ごう！
+貯めたココナッツで
+アイテムをゲット";
+"tutorial_content_3" = "稼いだココナッツは
+交換もできる！";
+"tutorial_tap_start" = "タップでスタート";
+
+// MARK: - Share
+"share_tournament_detail" = "%1@ の %2@ KOKOで開催中です！早く一緒に参加しましょう！ #@kokonats_jp https://game.kokonats.club";
+"share_game_detail" = "KOKOで%1@を一緒に大会に参加しましょう！ #@kokonats_jp https://game.kokonats.club";
+
+"share_result_tournament_1" = "%2@ の 大会 %3@ で 第%1@位 を獲得した！#@kokonats_jp https://game.kokonats.club";
+"share_result_tournament_2" = "%2@ の 大会 %3@ で 第%1@位 を獲得した！#@kokonats_jp https://game.kokonats.club";
+"share_result_tournament_3" = "%2@ の 大会 %3@ で 第%1@位 を獲得した！#@kokonats_jp https://game.kokonats.club";
+"share_result_tournament_other" = "%2@ の 大会 %3@ で 第%1@位 を獲得した！#@kokonats_jp https://game.kokonats.club";
+"share_result_match_win" = "%1@ で %2@ を勝って賞金獲得した！#@kokonats_jp https://game.kokonats.club";
+"share_result_match_draw" = "%1@ で %2@ と引き分けました！試合がすごく楽しかった！ #@kokonats_jp https://game.kokonats.club/";
+"share_result_match_lose" = "%1@ で %2@ に負けました、誰か助けてください！#@kokonats_jp https://game.kokonats.club/";
